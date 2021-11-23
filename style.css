@@ -19,7 +19,7 @@ body {
 }
 
 header img {
-    width: 50%;
+    width: 70%;
 }
 
 header .container {
@@ -42,7 +42,7 @@ main .container p {
 .mainshopcontainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3em;
+    gap: 2em;
     width: 100%;
 }
 
