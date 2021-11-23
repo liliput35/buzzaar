@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: #ffd659;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    padding: 0 1em;
+}
+
+header img {
+    width: 70%;
+}
+
+header .container {
+    text-align: center;
+}
+
+main .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+main .container p {
+    text-align: center;
+    width: 12em;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.mainshopcontainer {
+    display: flex;
+}
+
+.col2 {
+    padding-top: 2em;
+    margin-right: -1em;
+}
+
+.col1 {
+    margin-left: -1em;
+}
+.col2 img {
+    margin-bottom: .5em;
+}
+
+.col1 img {
+    width: 110%;
+    margin-bottom: 1em;
+}
+
+.enough {
+    width: 100%;
+}
+
+
+
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.needbig {
+    width: 113%;
+    margin-left: -2em;
+} 
+
+.lastshop img {
+    width: 50%;
+}
+
+.lastshop {
+    text-align: center;
+    margin-top: -2em;
+}
+
+.shops img {
+    width: 100%;
+}
+
+.shops {
+    text-align: center;
+}
+
+.bee {
+    width: 60px;
+    position: absolute;
+}
+
+.onebee {
+    top: 10%;
+    right: 8%;
+    width: 80px;
+    transform: rotate(30deg);
+}
+
+.twobee {
+    top: 26%;
+    left: 43%;
+    transform: scaleX(-1) rotate(30deg);
+}
+
+.threebee {
+    top: 44%;
+    right: 0;
+    transform: rotate(30deg);
+}
+
+.fourbee {
+    top: 55%;
+    left: 0%;
+    transform: scaleX(-1) rotate(30deg);
+}
+
+.fivebee {
+    top: 75%;
+    right: 3%;
+    transform: rotate(30deg);
+    width: 80px;
+}
+
+.sixbee {
+    top: 80%;
+    left: 3%;
+    transform: scaleX(-1) rotate(30deg);
+    width: 80px;
+
+}
+
+.container1 {
+    padding-bottom: 2em;
+}
