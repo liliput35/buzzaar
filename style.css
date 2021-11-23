@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: #ffd659;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    padding: 0 1em;
+}
+
+header img {
+    width: 70%;
+}
+
+header .container {
+    text-align: center;
+}
+
+main .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+main .container p {
+    text-align: right;
+    width: 12em;
+    font-size: 1em;
+    margin-right: -2em;
+    font-weight: 600;
+}
+.mainshopcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4em;
+    width: 100%;
+}
+
+.shopbox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+    position: relative;
+    
+}
+.shop img {
+    width: 140%;
+    border-radius: 45%;
+    height: 170px;
+    max-height: 170px;
+}
+
+
+.shopbox p {
+    background-color: black;
+    color: white;
+    width: 120px;
+    padding: 10px 8px;
+    position: absolute;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1em;
+}
+
+
+.col2 {
+    padding-top: 4em;
+}
+
+.col2 .shopbox {
+    position: relative;
+}
+
+.col2 .first p {
+    position: absolute;
+    top: 0;
+    left: -1em;
+}
+
+.col1 .col1first p {
+    bottom: -.5em;
+    right: 0;
+}
+.col1 .col1second p {
+    bottom: -.5em;
+    right: -1em;
+}
+
+.col2 .second p {
+    position: absolute;
+    top: 0;
+    left: -3em; 
+}
+
+
+.lastshop {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: -2em;
+}
+
+
+.lastshop .shopbox p {
+    bottom: 0;
+    right: 0;
+}
+
+.container1 {
+    text-align: center;
+}
+
+.container1 img {
+    width: 80%;
+}
+
+#delia {
+    border: solid 8px #b8adad;
+}
+#batter {
+    border: solid 8px #d18378;
+}
+#kusina {
+    border: solid 8px #a68b8b;
+}
+#ac {
+    border: solid 8px #525574;
+}
+#swish {
+    border: solid 8px #af8c7a;
+}
+#kimchi {
+    border: solid 8px #945050;
+}
+#calido {
+    border: solid 8px #948ba6;
+}
+#likha {
+    border: solid 8px #8ba68c;
+}
+#labelstile {
+    border: solid 8px #5d888b;
+}
+
+
+.bee {
+    width: 60px;
+}
+
+.onebee {
+    width: 80px;
+    position: absolute;
+    top: 12%;
+    left: 70%;
+    transform: rotate(35deg);
+}
+
+.twobee {
+    position: absolute;
+    top: 28%;
+    left: 44%;
+    transform: scaleX(-1) rotate(35deg);
+}
+
+.threebee {
+    position: absolute;
+    top: 44%;
+    right: 0;
+    transform: rotate(35deg);
+}
+.fourbee {
+    position: absolute;
+    top: 56%;
+    width: 50px;
+    left: -1em;
+    transform: rotate(-35deg) scaleX(-1);
+}
+.fivebee {
+    position: absolute;
+    top: 75%;
+    right: -1em;
+    transform: rotate(35deg);
+    width: 80px;
+}
+.sixbee {
+    position: absolute;
+    top: 80%;
+    left: -1em;
+    transform: rotate(-35deg) scaleX(-1);
+    width: 80px;
+}
+
+.shops p {
+    color: rgb(54, 54, 54);
+    margin-bottom: 2em;
+}
+
+.wrapper {
+    max-width: 600px;
+    position: relative;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 480px){
+    /*body{
+        padding: 0 3em;
+    }*/
+    .mainshopcontainer {
+        gap: 6em;
+    }
+
+    .shop img {
+        width: 100%;
+    }
+
+}
+@media only screen and (min-width: 650px){
+    /*body{
+        padding: 0 6em;
+    }*/
+}
+/*@media only screen and (min-width: 700px){
+    body{
+        padding: 0 8em;
+    }
+}
+@media only screen and (min-width: 750px){
+    body{
+        padding: 0 10em;
+    }
+}
+@media only screen and (min-width: 800px){
+    body{
+        padding: 0 12em;
+    }
+}
+@media only screen and (min-width: 900px){
+    body{
+        padding: 0 14em;
+    }
+}
+@media only screen and (min-width: 1100px){
+    body{
+        padding: 0 16em;
+    }
+}
+@media only screen and (min-width: 1150px){
+    body{
+        padding: 0 20em;
+    }
+}
+@media only screen and (min-width: 1300px){
+    body{
+        padding: 0 30%;
+    }
+}
+
